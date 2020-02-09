@@ -2,8 +2,8 @@ package javass3.jass.packed;
 
 import static javass3.bits.Bits32.extract;
 
-import javass3.jass.Card.Color;
-import javass3.jass.Card.Rank;
+import javass3.jass.components.Card.Color;
+import javass3.jass.components.Card.Rank;
 
 public class PackedCard {
 	
