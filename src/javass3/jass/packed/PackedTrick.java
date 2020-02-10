@@ -2,16 +2,26 @@ package javass3.jass.packed;
 
 import static javass3.bits.Bits32.extract;
 import static javass3.jass.Jass.LAST_TRICK_ADDITIONAL_POINTS;
-import static javass3.jass.packed.PackedCardSet.*;
+import static javass3.jass.packed.PackedCardSet.EMPTY;
+import static javass3.jass.packed.PackedCardSet.add;
+import static javass3.jass.packed.PackedCardSet.complement;
+import static javass3.jass.packed.PackedCardSet.difference;
+import static javass3.jass.packed.PackedCardSet.get;
+import static javass3.jass.packed.PackedCardSet.intersection;
+import static javass3.jass.packed.PackedCardSet.remove;
+import static javass3.jass.packed.PackedCardSet.singleton;
+import static javass3.jass.packed.PackedCardSet.subsetOfColor;
+import static javass3.jass.packed.PackedCardSet.trumpAbove;
+import static javass3.jass.packed.PackedCardSet.union;
 
 import java.util.StringJoiner;
 
 import javass3.bits.Bits32;
 import javass3.jass.Jass;
-import javass3.jass.PlayerId;
 import javass3.jass.components.Card;
 import javass3.jass.components.Card.Color;
 import javass3.jass.components.Card.Rank;
+import javass3.jass.ids.PlayerId;
 
 public class PackedTrick {
 	

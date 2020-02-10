@@ -1,4 +1,4 @@
-package javass3.jass;
+package javass3.jass.ids;
 
 import java.util.Arrays;
 import java.util.Collections;

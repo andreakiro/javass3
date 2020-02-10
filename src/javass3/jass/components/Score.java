@@ -2,7 +2,7 @@ package javass3.jass.components;
 
 import static javass3.Preconditions.checkArgument;
 
-import javass3.jass.TeamId;
+import javass3.jass.ids.TeamId;
 import javass3.jass.packed.PackedScore;
 
 public class Score {

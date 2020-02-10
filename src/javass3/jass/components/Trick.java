@@ -3,8 +3,8 @@ package javass3.jass.components;
 import static javass3.Preconditions.checkArgument;
 import static javass3.Preconditions.checkIndex;
 
-import javass3.jass.PlayerId;
 import javass3.jass.components.Card.Color;
+import javass3.jass.ids.PlayerId;
 import javass3.jass.packed.PackedTrick;
 
 public class Trick {

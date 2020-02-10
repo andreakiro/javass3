@@ -6,7 +6,7 @@ import static javass3.bits.Bits64.extract;
 import javass3.bits.Bits32;
 import javass3.bits.Bits64;
 import javass3.jass.Jass;
-import javass3.jass.TeamId;
+import javass3.jass.ids.TeamId;
 
 public class PackedScore {
 	
